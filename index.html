@@ -3,45 +3,229 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Poly Prix</title>
+    <title>Poly Prix - Low-Poly Racing Game</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="noise-overlay"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-poly">POLY</span>
+                <span class="logo-prix">PRIX</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#modes">Game Modes</a></li>
+                <li><a href="#tracks">Tracks</a></li>
+                <li><a href="#customization">Customize</a></li>
+            </ul>
+        </div>
+    </nav>
 
-<nav>
-    <div class="logo">POLY PRIX</div>
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#modes">Game Modes</a></li>
-        <li><a href="#customize">Customization</a></li>
-        <li><a href="#tracks">Tracks</a></li>
-        <li><a href="#footer">About</a></li>
-    </ul>
-</nav>
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">POLY</span>
+                <span class="title-line">PRIX</span>
+            </h1>
+            <p class="hero-subtitle">LOW-POLY RACING. MAXIMUM ADRENALINE.</p>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">20</div>
+                    <div class="stat-label">PLAYERS</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">TRACKS</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">MODES</div>
+                </div>
+            </div>
+            <button class="cta-button">COMING SOON</button>
+        </div>
+        <div class="hero-decoration">
+            <div class="racing-line"></div>
+            <div class="racing-line racing-line-2"></div>
+        </div>
+    </section>
 
-<header class="hero" id="home">
-    <h1>POLY PRIX</h1>
-    <p>The low-poly competitive racing game inspired by Formula motorsport. Online races, leaderboards, custom liveries, and chaotic fun.</p>
-    <a href="#" class="btn">Follow Development</a>
-</header>
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">RACE. COMPETE. CUSTOMIZE.</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏎️</div>
+                    <h3>Fair Racing</h3>
+                    <p>No performance upgrades. Pure skill-based competition with equal cars for everyone.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌐</div>
+                    <h3>20-Player Online</h3>
+                    <p>Race against players worldwide in massive multiplayer races with AI filling empty slots.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Endless Customization</h3>
+                    <p>Unlock liveries, suits, and helmets. Make your driver stand out on the grid.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗺️</div>
+                    <h3>Iconic Tracks</h3>
+                    <p>Race on parody versions of real-world circuits. From Sauna to Monégo!</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>Smart AI</h3>
+                    <p>Practice and race against intelligent AI drivers that follow racing lines and compete hard.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>Low-Poly Style</h3>
+                    <p>Clean, vibrant graphics with smooth edges and minimal textures for maximum performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section" id="modes">
-    <h2>Game Modes</h2>
-    <p>Race in online lobbies, compete in full seasons, practice for cash, or play solo with AI. Everyone uses the same balanced car — skill is the only advantage.</p>
-</section>
+    <!-- Game Modes Section -->
+    <section id="modes" class="modes">
+        <div class="container">
+            <h2 class="section-title">GAME MODES</h2>
+            <div class="modes-container">
+                <div class="mode-card">
+                    <div class="mode-header">
+                        <h3>RACE MODE</h3>
+                        <span class="mode-badge">ONLINE</span>
+                    </div>
+                    <div class="mode-content">
+                        <p>Complete race weekend experience with practice, qualifying, and the main race.</p>
+                        <ul class="mode-features">
+                            <li>3 min practice session</li>
+                            <li>10-20 min qualifying</li>
+                            <li>Full race distance</li>
+                            <li>Earn rewards by position</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mode-card">
+                    <div class="mode-header">
+                        <h3>FREE PRACTICE</h3>
+                        <span class="mode-badge">CASUAL</span>
+                    </div>
+                    <div class="mode-content">
+                        <p>Jump in and drive. Perfect for learning tracks and improving lap times.</p>
+                        <ul class="mode-features">
+                            <li>Up to 20 players</li>
+                            <li>Earn cash per valid lap</li>
+                            <li>No pressure racing</li>
+                            <li>Track mastery</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mode-card">
+                    <div class="mode-header">
+                        <h3>SEASON MODE</h3>
+                        <span class="mode-badge">COMPETITIVE</span>
+                    </div>
+                    <div class="mode-content">
+                        <p>Full championship experience across 10 races with 20 human players.</p>
+                        <ul class="mode-features">
+                            <li>10-race championship</li>
+                            <li>Points system</li>
+                            <li>45 min races</li>
+                            <li>Championship rewards</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="mode-card">
+                    <div class="mode-header">
+                        <h3>SOLO MODE</h3>
+                        <span class="mode-badge">AI</span>
+                    </div>
+                    <div class="mode-content">
+                        <p>Practice offline against AI opponents. Perfect for skill development.</p>
+                        <ul class="mode-features">
+                            <li>AI opponents</li>
+                            <li>Reduced rewards</li>
+                            <li>Learn tracks safely</li>
+                            <li>No internet required</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section" id="customize">
-    <h2>Customization</h2>
-    <p>Create your identity: custom liveries, driver suits, and helmets. Stand out on track with your own unique style.</p>
-</section>
+    <!-- Tracks Section -->
+    <section id="tracks" class="tracks">
+        <div class="container">
+            <h2 class="section-title">LEGENDARY TRACKS</h2>
+            <p class="tracks-subtitle">Race on parody versions of the world's most iconic circuits</p>
+            <div class="tracks-grid">
+                <div class="track-card">
+                    <div class="track-name">SAUNA</div>
+                    <div class="track-real">(Spa-Francorchamps)</div>
+                </div>
+                <div class="track-card">
+                    <div class="track-name">SILVERSTUN</div>
+                    <div class="track-real">(Silverstone)</div>
+                </div>
+                <div class="track-card">
+                    <div class="track-name">MONÉGO</div>
+                    <div class="track-real">(Monaco)</div>
+                </div>
+                <div class="track-card">
+                    <div class="track-name">MORE COMING</div>
+                    <div class="track-real">Stay Tuned!</div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<section class="section" id="tracks">
-    <h2>Low-Poly Tracks</h2>
-    <p>Race around original parodies of real circuits from the 2025 calendar. Sauna, Gulfstone, Stormbar, Canyon City, Iron Desert — and more to come.</p>
-</section>
+    <!-- Customization Section -->
+    <section id="customization" class="customization">
+        <div class="container">
+            <h2 class="section-title">MAKE IT YOURS</h2>
+            <div class="custom-grid">
+                <div class="custom-card">
+                    <h3>🎨 LIVERIES</h3>
+                    <p>Custom colors, patterns, and stickers. Design the perfect look for your car.</p>
+                </div>
+                <div class="custom-card">
+                    <h3>🏁 RACING SUITS</h3>
+                    <p>Unlock unique suits to match your style and stand out in the paddock.</p>
+                </div>
+                <div class="custom-card">
+                    <h3>🪖 HELMETS</h3>
+                    <p>Collect and customize helmets. Show your personality on track.</p>
+                </div>
+            </div>
+            <p class="custom-note">All cosmetics earned through gameplay. No pay-to-win.</p>
+        </div>
+    </section>
 
-<footer id="footer">© 2025 Poly Prix — This website is a work in progress.</footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-poly">POLY</span>
+                    <span class="logo-prix">PRIX</span>
+                </div>
+                <p class="footer-text">Low-poly racing. Built with Unity. Coming Soon.</p>
+                <p class="footer-copyright">&copy; 2025 Poly Prix. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
