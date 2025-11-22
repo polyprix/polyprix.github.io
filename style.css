@@ -1,0 +1,116 @@
+/* style.css */
+
+/* GENERAL */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f0f0f;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(15,15,15,0.95);
+    border-bottom: 2px solid #ff0040;
+    z-index: 1000;
+}
+nav .logo {
+    font-size: 28px;
+    font-weight: 900;
+    color: #ff9100;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    margin-left: 25px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+nav ul li a:hover {
+    color: #ff9100;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 180px 20px 120px;
+    background: linear-gradient(135deg, #ff0040, #ff9100);
+}
+.hero h1 {
+    font-size: 72px;
+    margin: 0;
+    font-weight: 900;
+    letter-spacing: -2px;
+}
+.hero p {
+    font-size: 22px;
+    max-width: 700px;
+    margin: 20px auto 0;
+    opacity: 0.9;
+}
+.btn {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 14px 32px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background: rgba(0,0,0,0.55);
+    border: 2px solid #fff;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #fff;
+    color: #000;
+}
+
+/* SECTIONS */
+.section {
+    padding: 120px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.7s ease-out;
+}
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.section h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.section p {
+    font-size: 20px;
+    opacity: 0.85;
+    line-height: 1.7;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 50px 20px;
+    font-size: 14px;
+    opacity: 0.6;
+    border-top: 1px solid #ffffff22;
+}
