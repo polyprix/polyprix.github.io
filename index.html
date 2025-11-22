@@ -1,128 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poly Prix</title>
-
-    <style>
-        body {
-            margin: 0;
-            background: #0f0f0f;
-            color: #ffffff;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        /* HEADER SECTION */
-        .hero {
-            text-align: center;
-            padding: 120px 20px 100px;
-            background: linear-gradient(135deg, #ff0040, #ff9100);
-            border-bottom: 4px solid #ffffff22;
-        }
-
-        .hero h1 {
-            font-size: 72px;
-            margin: 0;
-            font-weight: 900;
-            letter-spacing: -2px;
-        }
-
-        .hero p {
-            font-size: 22px;
-            max-width: 700px;
-            margin: 20px auto 0;
-            opacity: 0.9;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 35px;
-            padding: 14px 32px;
-            font-size: 20px;
-            font-weight: bold;
-            color: #fff;
-            background: #00000055;
-            border: 2px solid #fff;
-            border-radius: 10px;
-            text-decoration: none;
-            transition: 0.2s;
-        }
-
-        .btn:hover {
-            background: #ffffff;
-            color: #000;
-        }
-
-        /* CONTENT SECTIONS */
-        .section {
-            padding: 70px 20px;
-            max-width: 900px;
-            margin: auto;
-            text-align: center;
-        }
-
-        .section h2 {
-            font-size: 40px;
-            margin-bottom: 15px;
-        }
-
-        .section p {
-            font-size: 20px;
-            opacity: 0.85;
-            line-height: 1.7;
-        }
-
-        /* FOOTER */
-        footer {
-            text-align: center;
-            padding: 25px;
-            margin-top: 40px;
-            font-size: 14px;
-            opacity: 0.5;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- HERO BANNER -->
-    <div class="hero">
-        <h1>POLY PRIX</h1>
-        <p>The low-poly competitive racing game inspired by Formula motorsport. 
-           Online races, leaderboards, custom liveries, and chaotic fun.</p>
-        <a href="#" class="btn">Follow Development</a>
-    </div>
+<nav>
+    <div class="logo">POLY PRIX</div>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#modes">Game Modes</a></li>
+        <li><a href="#customize">Customization</a></li>
+        <li><a href="#tracks">Tracks</a></li>
+        <li><a href="#footer">About</a></li>
+    </ul>
+</nav>
 
-    <!-- FEATURES -->
-    <div class="section">
-        <h2>Game Modes</h2>
-        <p>
-            Race in online lobbies, compete in full seasons, practice for cash, or play solo with AI.  
-            Everyone uses the same balanced car — skill is the only advantage.
-        </p>
-    </div>
+<header class="hero" id="home">
+    <h1>POLY PRIX</h1>
+    <p>The low-poly competitive racing game inspired by Formula motorsport. Online races, leaderboards, custom liveries, and chaotic fun.</p>
+    <a href="#" class="btn">Follow Development</a>
+</header>
 
-    <div class="section">
-        <h2>Customization</h2>
-        <p>
-            Create your identity: custom liveries, driver suits, and helmets.  
-            Stand out on track with your own unique style.
-        </p>
-    </div>
+<section class="section" id="modes">
+    <h2>Game Modes</h2>
+    <p>Race in online lobbies, compete in full seasons, practice for cash, or play solo with AI. Everyone uses the same balanced car — skill is the only advantage.</p>
+</section>
 
-    <div class="section">
-        <h2>Low-Poly Tracks</h2>
-        <p>
-            Race around original parodies of real circuits from the 2025 calendar.  
-            Sauna, Gulfstone, Stormbar, Canyon City, Iron Desert — and more to come.
-        </p>
-    </div>
+<section class="section" id="customize">
+    <h2>Customization</h2>
+    <p>Create your identity: custom liveries, driver suits, and helmets. Stand out on track with your own unique style.</p>
+</section>
 
-    <footer>
-        © 2025 Poly Prix — This website is a work in progress.
-    </footer>
+<section class="section" id="tracks">
+    <h2>Low-Poly Tracks</h2>
+    <p>Race around original parodies of real circuits from the 2025 calendar. Sauna, Gulfstone, Stormbar, Canyon City, Iron Desert — and more to come.</p>
+</section>
 
+<footer id="footer">© 2025 Poly Prix — This website is a work in progress.</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
-
